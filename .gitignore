@@ -1,0 +1,47 @@
+# ==========================================
+# Root .gitignore
+# ==========================================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Settings
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Java & Maven Artifacts
+target/
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+
+# Node & Frontend Dependencies / Builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+.env.local
+.env.*.local
+.npm
+.eslintcache
+
+# Docker local data
+*.env
+docker-volumes/
+postgres_data/
+redis_data/
+kafka_data/
